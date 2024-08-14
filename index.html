@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jane's Consulting Services</title>
+  <style>
+    /* Reset some default styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Body styles */
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    /* Header styles */
+    header {
+      background-color: #012b22;
+      color: #fff;
+      padding: 1.5rem;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    /* Main content styles */
+    main {
+      padding: 2rem;
+    }
+
+    section {
+      margin-bottom: 2rem;
+    }
+
+    h2 {
+      color: #038b3c;
+      margin-bottom: 1rem;
+    }
+
+    /* Services section styles */
+    .service {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1.5rem;
+    }
+
+    .service-image {
+      width: 100px;
+      height: 100px;
+      margin-right: 1rem;
+    }
+
+    /* Contact section styles */
+    form {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 1rem;
+    }
+
+    input, textarea {
+      padding: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    button {
+      background-color: #012b22;
+      color: #fff;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    /* Footer styles */
+    footer {
+      background-color: #1eff00;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    /* Responsive styles */
+    @media (max-width: 767px) {
+      main {
+        padding: 1rem;
+      }
+
+      .service {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .service-image {
+        margin-right: 0;
+        margin-bottom: 1rem;
+      }
+
+      form {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Peterson Consulting Services</h1>
+    <p>Professional consulting for your business needs</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <p>I'm Peter, a seasoned business consultant with over 10 years of experience helping small and medium-sized businesses reach their full potential. I offer a wide range of consulting services to help you grow your business and achieve your goals.</p>
+    </section>
+
+    <section>
+      <h2>Our Services</h2>
+      <div class="service">
+        <img src="strategy.png" alt="Strategy Icon" class="service-image">
+        <div>
+          <h3>Strategic Planning</h3>
+          <p>I'll work with you to develop a comprehensive business strategy that aligns with your goals and vision.</p>
+        </div>
+      </div>
+      <div class="service">
+        <img src="marketing.png" alt="Marketing Icon" class="service-image">
+        <div>
+          <h3>Marketing Consulting</h3>
+          <p>Improve your marketing efforts and reach more customers with my expert guidance.</p>
+        </div>
+      </div>
+      <div class="service">
+        <img src="operations.png" alt="Operations Icon" class="service-image">
+        <div>
+          <h3>Operations Optimization</h3>
+          <p>Streamline your business operations and increase efficiency with my recommendations.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Contact Me</h2>
+      <form>
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <input type="tel" placeholder="Phone" required>
+        <textarea placeholder="Message" rows="4" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Peterson Consulting Services. All rights reserved.</p>
+    <p> Peter Okechukwu Orohu, matric: 2106061099 </p>
+  </footer>
+</body>
+</html>
